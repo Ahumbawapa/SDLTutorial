@@ -29,8 +29,22 @@ int main(int argc, char* args[])
 		return -1;
 	}
 
-	SDL_Delay(3000);
+	bool quit = false;
+	SDL_Event e;
 
+	//main event loop
+	while(!quit)
+	{
+		while(SDL_PollEvent(&e) != 0)
+		{
+			if(e.type == SDL_QUIT)
+				quit = true;
+		}
+	}
+
+	//shutdown SDL subsystem
+	SDL_DestroyWindow(gWindow);
+	SDL_Quit();
 	return 0;
 }
 
