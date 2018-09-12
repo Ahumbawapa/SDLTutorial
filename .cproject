@@ -61,7 +61,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="05_optimized_surface.cpp|04_key_presses.cpp|03_event_driven_programming.cpp|02_getting_an_image_on_the_screen.cpp|02_first_grafics_window.cpp|01_hello_SDL.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="06_sdl_image_extension_lib.cpp|05_optimized_surface.cpp|04_key_presses.cpp|03_event_driven_programming.cpp|02_getting_an_image_on_the_screen.cpp|02_first_grafics_window.cpp|01_hello_SDL.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -123,7 +123,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="05_optimized_surface.cpp|04_key_presses.cpp|03_event_driven_programming.cpp|02_getting_an_image_on_the_screen.cpp|02_first_grafics_window.cpp|01_hello_SDL.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="06_sdl_image_extension_lib.cpp|05_optimized_surface.cpp|04_key_presses.cpp|03_event_driven_programming.cpp|02_getting_an_image_on_the_screen.cpp|02_first_grafics_window.cpp|01_hello_SDL.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
