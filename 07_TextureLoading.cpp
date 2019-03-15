@@ -125,7 +125,7 @@ bool init()
 
 
 	cout << "SDL_SetRenderDrawColor()..." << endl;
-	//Initialize rederer color
+	//Initialize renderer color
 	SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
 
 
@@ -145,7 +145,7 @@ bool init()
 bool loadMedia()
 {
 	//Load PNG texture
-	gTexture = loadTexture("C:\\work\\SDL\\lazyFooTutorial\\07_texture_loading_and_rendering\\texture.png");
+	gTexture = loadTexture("E:\\work\\SDL\\lazyFooTutorial\\07_texture_loading_and_rendering\\texture.png");
 
 	if(nullptr == gTexture)
 	{
